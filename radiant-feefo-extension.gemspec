@@ -33,5 +33,26 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<radiant>, [">= 1.0.0.rc2"])
   end
-end
 
+  # = MANIFEST =
+  s.files = %w[
+    Gemfile
+    Gemfile.lock
+    README.md
+    Rakefile
+    app/controllers/feefo_controller.rb
+    app/models/feefo_review_fetcher.rb
+    app/models/remote_feefo_review_fetcher.rb
+    config/feefo.yml.example
+    config/routes.rb
+    feefo_extension.rb
+    lib/radiant-feefo-extension.rb
+    lib/tasks/radiant-feefo-extension-tasks.rake
+    radiant-feefo-extension.gemspec
+    spec/cassettes/feefo_reviews_with_feedback.yml
+    spec/feefo_review_fetcher_spec.rb
+    spec/spec_helper.rb
+  ]
+  # = MANIFEST =
+
+end
