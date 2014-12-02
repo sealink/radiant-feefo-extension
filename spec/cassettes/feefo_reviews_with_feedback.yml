@@ -1,0 +1,147 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.feefo.com/feefo/xmlfeed.jsp?json=true&limit=9&logon=www.sealinktravelgroup.com.au/SeaLink%20KI&vendorref=HTCC
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Set-Cookie:
+      - JSESSIONID=728C2700C3DB55AE742CBE1D7FCAAE98; Path=/
+      Cache-Control:
+      - max-age=3600
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Tue, 02 Dec 2014 06:26:31 GMT
+      Connection:
+      - close
+    body:
+      encoding: US-ASCII
+      string: ! "{\"FEEDBACKLIST\": {\n    \"FEEDBACK\": [\n        {\n            \"COUNT\":
+        1,\n            \"CUSTOMERCOMMENT\": \"A bit long journey but good experience.
+        \ A bit disappointed as not Kangaroo saw!\",\n            \"DATE\": \"09-Oct-2014\",\n
+        \           \"DESCRIPTION\": \"1 Day Kangaroo Island Experience\",\n            \"FACEBOOKSHARELINK\":
+        \"http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.feefo.com%2FAU%2Fen%2Freviews%2FSeaLink-KI_Tours%2F%3Fid%3D987195%26servicefeedbackid%3D349\",\n
+        \           \"FEEDBACKID\": 349,\n            \"HREVIEWDATE\": \"2014-10-09T12:57:04\",\n
+        \           \"HREVIEWRATING\": 4,\n            \"LINK\": \"http://www.sealink.com.au/kangaroo-island-tours/1-day-tours/kangaroo-island-highlights-day-tour/\",\n
+        \           \"PRODUCTCODE\": \"HTCC\",\n            \"PRODUCTRATING\": \"+\",\n
+        \           \"READMOREURL\": \"http://www.feefo.com/AU/en/reviews/SeaLink-KI_Tours/?id=987195&productfeedbackid=349\",\n
+        \           \"SHORTCUSTOMERCOMMENT\": \"A bit long journey but good experience.
+        \ A bit disappointed as not Kangaroo saw!\"\n        },\n        {\n            \"COUNT\":
+        2,\n            \"CUSTOMERCOMMENT\": \"Our bus trip was brilliant. Our driver
+        was simply terrific, very knowledgeable, affable and relaxed. The sights were
+        great but it would be nice to include the Eucalyptus Oil place perhaps?\",\n
+        \           \"DATE\": \"10-Sep-2014\",\n            \"DESCRIPTION\": \"1 Day
+        Kangaroo Island Experience\",\n            \"FACEBOOKSHARELINK\": \"http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.feefo.com%2FAU%2Fen%2Freviews%2FSeaLink-KI_Tours%2F%3Fid%3D987195%26servicefeedbackid%3D879\",\n
+        \           \"FEEDBACKID\": 879,\n            \"HREVIEWDATE\": \"2014-09-10T06:56:12\",\n
+        \           \"HREVIEWRATING\": 5,\n            \"LINK\": \"http://www.sealink.com.au/kangaroo-island-tours/1-day-tours/kangaroo-island-highlights-day-tour/\",\n
+        \           \"PRODUCTCODE\": \"HTCC\",\n            \"PRODUCTRATING\": \"++\",\n
+        \           \"READMOREURL\": \"http://www.feefo.com/AU/en/reviews/SeaLink-KI_Tours/?id=987195&productfeedbackid=879\",\n
+        \           \"SHORTCUSTOMERCOMMENT\": \"Our bus trip was brilliant. Our driver
+        was simply terrific, very knowledgeable, affable and relaxed. The sights were
+        great but it would be nice to include the Eucalyptus Oil place perhaps?\"\n
+        \       },\n        {\n            \"COUNT\": 3,\n            \"CUSTOMERCOMMENT\":
+        \"Our tour guide, Kalen, was terrific. Since he lives on KI he had lots of
+        great stories and information about the island and its inhabitants -- human
+        and otherwise! He stopped the bus or slowed down to show us different animals
+        or traces of them. We saw an echidna and the ant hills that goanas lay their
+        eggs in. He was cheerful and seemed to really enjoy his job. My only complaint
+        would be that I felt a bit rushed at some of the stops because we were a bit
+        pressed for time in order to keep on schedule. But all in all it was a great
+        tour and I would highly recommend it!\",\n            \"DATE\": \"10-Sep-2014\",\n
+        \           \"DESCRIPTION\": \"1 Day Kangaroo Island Experience\",\n            \"FACEBOOKSHARELINK\":
+        \"http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.feefo.com%2FAU%2Fen%2Freviews%2FSeaLink-KI_Tours%2F%3Fid%3D987195%26servicefeedbackid%3D1023\",\n
+        \           \"FEEDBACKID\": 1023,\n            \"HREVIEWDATE\": \"2014-09-09T18:03:17\",\n
+        \           \"HREVIEWRATING\": 5,\n            \"LINK\": \"http://www.sealink.com.au/kangaroo-island-tours/1-day-tours/kangaroo-island-highlights-day-tour/\",\n
+        \           \"PRODUCTCODE\": \"HTCC\",\n            \"PRODUCTRATING\": \"++\",\n
+        \           \"READMOREURL\": \"http://www.feefo.com/AU/en/reviews/SeaLink-KI_Tours/?id=987195&productfeedbackid=1023\",\n
+        \           \"SHORTCUSTOMERCOMMENT\": \"Our tour guide, Kalen, was terrific.
+        Since he lives on KI he had lots of great stories and information about the
+        island and its inhabitants -- human and otherwise! He stopped the bus or slowed
+        down to show us different animals or traces of them. We saw an echidna and
+        the ant hills that goanas lay t...\"\n        },\n        {\n            \"COUNT\":
+        4,\n            \"CUSTOMERCOMMENT\": \"Good\",\n            \"DATE\": \"09-Sep-2014\",\n
+        \           \"DESCRIPTION\": \"1 Day Kangaroo Island Experience\",\n            \"FACEBOOKSHARELINK\":
+        \"http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.feefo.com%2FAU%2Fen%2Freviews%2FSeaLink-KI_Tours%2F%3Fid%3D987195%26servicefeedbackid%3D1069\",\n
+        \           \"FEEDBACKID\": 1069,\n            \"HREVIEWDATE\": \"2014-09-09T12:30:56\",\n
+        \           \"HREVIEWRATING\": 4,\n            \"LINK\": \"http://www.sealink.com.au/kangaroo-island-tours/1-day-tours/kangaroo-island-highlights-day-tour/\",\n
+        \           \"PRODUCTCODE\": \"HTCC\",\n            \"PRODUCTRATING\": \"+\",\n
+        \           \"READMOREURL\": \"http://www.feefo.com/AU/en/reviews/SeaLink-KI_Tours/?id=987195&productfeedbackid=1069\",\n
+        \           \"SHORTCUSTOMERCOMMENT\": \"Good\"\n        },\n        {\n            \"COUNT\":
+        5,\n            \"CUSTOMERCOMMENT\": \"Congratulations to your driver on KI
+        for not going without those couple of people that were always late.  He was
+        constantly courteous.\",\n            \"DATE\": \"09-Sep-2014\",\n            \"DESCRIPTION\":
+        \"1 Day Kangaroo Island Experience\",\n            \"FACEBOOKSHARELINK\":
+        \"http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.feefo.com%2FAU%2Fen%2Freviews%2FSeaLink-KI_Tours%2F%3Fid%3D987195%26servicefeedbackid%3D1135\",\n
+        \           \"FEEDBACKID\": 1135,\n            \"HREVIEWDATE\": \"2014-09-09T08:17:17\",\n
+        \           \"HREVIEWRATING\": 5,\n            \"LINK\": \"http://www.sealink.com.au/kangaroo-island-tours/1-day-tours/kangaroo-island-highlights-day-tour/\",\n
+        \           \"PRODUCTCODE\": \"HTCC\",\n            \"PRODUCTRATING\": \"++\",\n
+        \           \"READMOREURL\": \"http://www.feefo.com/AU/en/reviews/SeaLink-KI_Tours/?id=987195&productfeedbackid=1135\",\n
+        \           \"SHORTCUSTOMERCOMMENT\": \"Congratulations to your driver on
+        KI for not going without those couple of people that were always late.  He
+        was constantly courteous.\"\n        },\n        {\n            \"COUNT\":
+        6,\n            \"CUSTOMERCOMMENT\": \"a bit expensive\",\n            \"DATE\":
+        \"09-Sep-2014\",\n            \"DESCRIPTION\": \"1 Day Kangaroo Island Experience\",\n
+        \           \"FACEBOOKSHARELINK\": \"http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.feefo.com%2FAU%2Fen%2Freviews%2FSeaLink-KI_Tours%2F%3Fid%3D987195%26servicefeedbackid%3D999\",\n
+        \           \"FEEDBACKID\": 999,\n            \"HREVIEWDATE\": \"2014-09-09T03:08:48\",\n
+        \           \"HREVIEWRATING\": 4,\n            \"LINK\": \"http://www.sealink.com.au/kangaroo-island-tours/1-day-tours/kangaroo-island-highlights-day-tour/\",\n
+        \           \"PRODUCTCODE\": \"HTCC\",\n            \"PRODUCTRATING\": \"+\",\n
+        \           \"READMOREURL\": \"http://www.feefo.com/AU/en/reviews/SeaLink-KI_Tours/?id=987195&productfeedbackid=999\",\n
+        \           \"SHORTCUSTOMERCOMMENT\": \"a bit expensive\"\n        },\n        {\n
+        \           \"COUNT\": 7,\n            \"CUSTOMERCOMMENT\": \"It was a freezing
+        day, so would have like to board Sealink sooner, not at last minute when we
+        had to line up in the cold.\",\n            \"DATE\": \"07-Sep-2014\",\n            \"DESCRIPTION\":
+        \"1 Day Kangaroo Island Experience\",\n            \"FACEBOOKSHARELINK\":
+        \"http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.feefo.com%2FAU%2Fen%2Freviews%2FSeaLink-KI_Tours%2F%3Fid%3D987195%26servicefeedbackid%3D911\",\n
+        \           \"FEEDBACKID\": 911,\n            \"HREVIEWDATE\": \"2014-09-07T12:02:43\",\n
+        \           \"HREVIEWRATING\": 4,\n            \"LINK\": \"http://www.sealink.com.au/kangaroo-island-tours/1-day-tours/kangaroo-island-highlights-day-tour/\",\n
+        \           \"PRODUCTCODE\": \"HTCC\",\n            \"PRODUCTRATING\": \"+\",\n
+        \           \"READMOREURL\": \"http://www.feefo.com/AU/en/reviews/SeaLink-KI_Tours/?id=987195&servicefeedbackid=911\",\n
+        \           \"SHORTCUSTOMERCOMMENT\": \"It was a freezing day, so would have
+        like to board Sealink sooner, not at last minute when we had to line up in
+        the cold.\"\n        },\n        {\n            \"COUNT\": 8,\n            \"CUSTOMERCOMMENT\":
+        \"Tour coach was very comfortable company good.\",\n            \"DATE\":
+        \"06-Sep-2014\",\n            \"DESCRIPTION\": \"1 Day Kangaroo Island Experience\",\n
+        \           \"FACEBOOKSHARELINK\": \"http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.feefo.com%2FAU%2Fen%2Freviews%2FSeaLink-KI_Tours%2F%3Fid%3D987195%26servicefeedbackid%3D983\",\n
+        \           \"FEEDBACKID\": 983,\n            \"HREVIEWDATE\": \"2014-09-06T01:09:15\",\n
+        \           \"HREVIEWRATING\": 5,\n            \"LINK\": \"http://www.sealink.com.au/kangaroo-island-tours/1-day-tours/kangaroo-island-highlights-day-tour/\",\n
+        \           \"PRODUCTCODE\": \"HTCC\",\n            \"PRODUCTRATING\": \"++\",\n
+        \           \"READMOREURL\": \"http://www.feefo.com/AU/en/reviews/SeaLink-KI_Tours/?id=987195&productfeedbackid=983\",\n
+        \           \"SHORTCUSTOMERCOMMENT\": \"Tour coach was very comfortable company
+        good.\"\n        },\n        {\n            \"COUNT\": 9,\n            \"CUSTOMERCOMMENT\":
+        \"It was good experience\",\n            \"DATE\": \"05-Sep-2014\",\n            \"DESCRIPTION\":
+        \"1 Day Kangaroo Island Experience\",\n            \"FACEBOOKSHARELINK\":
+        \"http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.feefo.com%2FAU%2Fen%2Freviews%2FSeaLink-KI_Tours%2F%3Fid%3D987195%26servicefeedbackid%3D1109\",\n
+        \           \"FEEDBACKID\": 1109,\n            \"HREVIEWDATE\": \"2014-09-05T06:52:27\",\n
+        \           \"HREVIEWRATING\": 4,\n            \"LINK\": \"http://www.sealink.com.au/kangaroo-island-tours/1-day-tours/kangaroo-island-highlights-day-tour/\",\n
+        \           \"PRODUCTCODE\": \"HTCC\",\n            \"PRODUCTRATING\": \"+\",\n
+        \           \"READMOREURL\": \"http://www.feefo.com/AU/en/reviews/SeaLink-KI_Tours/?id=987195&productfeedbackid=1109\",\n
+        \           \"SHORTCUSTOMERCOMMENT\": \"It was good experience\"\n        }\n
+        \   ],\n    \"SUMMARY\": {\n        \"AVERAGE\": 98,\n        \"BEST\": 100,\n
+        \       \"COUNT\": 61,\n        \"FEEDGENERATION\": \"Tue Dec 02 06:26:31
+        GMT 2014\",\n        \"LIMIT\": 9,\n        \"MODE\": \"product\",\n        \"PRODUCTBAD\":
+        0,\n        \"PRODUCTEXCELLENT\": 30,\n        \"PRODUCTGOOD\": 30,\n        \"PRODUCTLINK\":
+        \"http://www.sealink.com.au/kangaroo-island-tours/1-day-tours/kangaroo-island-highlights-day-tour/\",\n
+        \       \"PRODUCTPOOR\": 1,\n        \"SERVICEBAD\": 0,\n        \"SERVICEEXCELLENT\":
+        35,\n        \"SERVICEGOOD\": 25,\n        \"SERVICEPOOR\": 1,\n        \"START\":
+        1,\n        \"SUPPLIERLOGO\": \"http://www.feefo.com/feefo/getnonpublicfile.jsp?vendorimage=985271&vendorimageext=file.jpg\",\n
+        \       \"TITLE\": \"1 Day Kangaroo Island Experience\",\n        \"TOTALPRODUCTCOUNT\":
+        61,\n        \"TOTALRESPONSES\": 61,\n        \"TOTALSERVICECOUNT\": 61,\n
+        \       \"VENDORLOGON\": \"www.sealinktravelgroup.com.au/SeaLink KI\",\n        \"VENDORREF\":
+        \"HTCC\",\n        \"WORST\": 0\n    }\n}}"
+    http_version: 
+  recorded_at: Tue, 02 Dec 2014 06:26:33 GMT
+recorded_with: VCR 2.9.3
