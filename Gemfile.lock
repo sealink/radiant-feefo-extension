@@ -7,7 +7,7 @@ GIT
 PATH
   remote: .
   specs:
-    radiant-feefo-extension (0.0.1)
+    radiant-feefo-extension (0.0.2)
       radiant (>= 1.0.0.rc2)
 
 GEM
