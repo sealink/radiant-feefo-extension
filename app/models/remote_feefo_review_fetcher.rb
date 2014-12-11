@@ -11,7 +11,8 @@ class RemoteFeefoReviewFetcher
       logon:     @config['account'],
       vendorref: @code,
       limit:     @config['review_limit'],
-      json:      true
+      json:      true,
+      mode:      'both'   # Needed to get both product and service rating
     }
 
     uri       = URI(url)
