@@ -1,6 +1,6 @@
 require 'net/http'
 
-class FeefoController < ApplicationController
+class FeefoController < SiteController
 
   def fetch_reviews
     code = params[:product_code]
