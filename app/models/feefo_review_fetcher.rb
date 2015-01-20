@@ -2,7 +2,7 @@ class FeefoReviewFetcher
 
   attr_reader :code, :feefo_config
 
-  def initialize(code, feefo_config=load_feefo_config)
+  def initialize(code, feefo_config = Feefo.new.config)
     @code = code
     @feefo_config = feefo_config
     @redis = Redis.new
@@ -15,10 +15,6 @@ class FeefoReviewFetcher
   end
 
   private
-
-  def load_feefo_config
-    YamlConfiguration.new(Rails.root.join('config/feefo.yml')).data
-  end
 
   def with_caching
     fetch_from_cache.presence || yield.tap { |reviews| store_in_cache(reviews) }
