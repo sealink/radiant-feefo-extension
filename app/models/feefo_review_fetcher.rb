@@ -2,13 +2,13 @@ class FeefoReviewFetcher
 
   attr_reader :code, :feefo_config
 
-  def initialize(code, feefo_config = Feefo.new.config)
+  def initialize(code, feefo_config = Feefo.config)
     @code = code
     @feefo_config = feefo_config
     @redis = Redis.new
   end
 
-  def fetch_reviews
+  def fetch_reviews_json
     with_caching do
       RemoteFeefoReviewFetcher.new(code, feefo_config).fetch_reviews
     end
