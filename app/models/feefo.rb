@@ -1,6 +1,6 @@
 module Feefo
   def self.config
-    @config ||= YamlConfiguration.new(Rails.root.join('config/feefo.yml')).data
+    @config ||= Yamload::Loader.new(:feefo, Rails.root.join('config')).loaded_hash
   end
 
   def self.review_base_url
