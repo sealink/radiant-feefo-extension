@@ -45,7 +45,9 @@ Gem::Specification.new do |s|
     README.md
     Rakefile
     app/controllers/feefo_controller.rb
+    app/models/feefo.rb
     app/models/feefo_review_fetcher.rb
+    app/models/feefo_reviews.rb
     app/models/remote_feefo_review_fetcher.rb
     config/feefo.yml.example
     config/routes.rb
