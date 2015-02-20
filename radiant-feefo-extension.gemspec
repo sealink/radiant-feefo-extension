@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('webmock')
   s.add_development_dependency('redis')
 
-  s.add_dependency 'yamload', '~> 0.0.6'
+  s.add_dependency 'yamload', '~> 0.2'
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
