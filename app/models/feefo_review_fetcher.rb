@@ -5,7 +5,9 @@ class FeefoReviewFetcher
   def initialize(code, feefo_config = Feefo.config)
     @code = code
     @feefo_config = feefo_config
-    @redis = Redis.new
+    @redis = Redis.new(host: redis_config['host'],
+                       port: redis_config['port'],
+                       db: redis_config['db'])
   end
 
   def fetch_reviews_json
@@ -30,6 +32,10 @@ class FeefoReviewFetcher
 
   def feefo_key(code)
     "feefo_reviews_for_#{code}"
+  end
+
+  def redis_config
+    @redis_config ||= Yamload::Loader.new(:redis, Rails.root.join('config')).loaded_hash[Rails.env]
   end
 
 end
