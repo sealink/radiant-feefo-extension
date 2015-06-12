@@ -18,7 +18,7 @@ describe "Fetching a set of reviews" do
 
   subject(:reviews) do
     VCR.use_cassette('feefo_reviews_with_feedback') do
-      feefo_review_fetcher.fetch_reviews
+      feefo_review_fetcher.fetch_reviews_json
     end
   end
 
