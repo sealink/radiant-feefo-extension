@@ -7,13 +7,15 @@ describe "Fetching a set of reviews" do
     Redis.new.flushdb
   end
 
+  let(:cache) { double(read: nil, write: nil) }
+
   let(:feefo_review_fetcher) do
     config = {
       'account'               => 'www.sealinktravelgroup.com.au/SeaLink KI',
       'time_to_cache_reviews' => 25,
       'review_limit'          => 9
     }
-    FeefoReviewFetcher.new('HTCC', config)
+    FeefoReviewFetcher.new('HTCC', config, cache)
   end
 
   subject(:reviews) do
