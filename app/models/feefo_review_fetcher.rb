@@ -2,10 +2,10 @@ class FeefoReviewFetcher
 
   attr_reader :code, :feefo_config
 
-  def initialize(code, feefo_config = Feefo.config, cache)
+  def initialize(code, feefo_config = Feefo.config, cache = Rails.cache)
     @code = code
     @feefo_config = feefo_config
-    @cache = cache || Rails.cache
+    @cache = cache
   end
 
   def fetch_reviews_json
