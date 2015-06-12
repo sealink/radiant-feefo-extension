@@ -3,10 +3,6 @@ require 'feefo_review_fetcher'
 require 'remote_feefo_review_fetcher'
 
 describe "Fetching a set of reviews" do
-  before do
-    Redis.new.flushdb
-  end
-
   let(:cache) { double(read: nil, write: nil) }
 
   let(:feefo_review_fetcher) do
