@@ -26,8 +26,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency('simplecov-rcov')
   s.add_development_dependency('coveralls')
 
-  s.add_dependency 'yamload', '~> 0.2'
-
   if s.respond_to? :specification_version then
     s.specification_version = 3
 
