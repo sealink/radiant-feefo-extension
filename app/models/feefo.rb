@@ -4,12 +4,12 @@ module Feefo
   end
 
   def self.config=(config)
-    @config = config
+    @config = config.symbolize_keys
   end
 
   def self.review_base_url
-    name    = URI.encode(config['name'])
-    account = URI.encode(config['account'])
+    name    = URI.encode(config[:name])
+    account = URI.encode(config[:account])
     "http://www.feefo.com/reviews/#{name}/?logon=#{account}"
   end
 end
