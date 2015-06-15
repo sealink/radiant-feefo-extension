@@ -8,8 +8,8 @@ module Feefo
   end
 
   def self.review_base_url
-    name    = URI.encode(config[:name])
-    account = URI.encode(config[:account])
+    name    = URI.encode(config.fetch(:name))
+    account = URI.encode(config.fetch(:account))
     "http://www.feefo.com/reviews/#{name}/?logon=#{account}"
   end
 end
