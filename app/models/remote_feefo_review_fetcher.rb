@@ -8,9 +8,9 @@ class RemoteFeefoReviewFetcher
 
   def fetch_reviews
     params = {
-      logon:     @config['account'],
+      logon:     @config[:account],
       vendorref: @code,
-      limit:     @config['review_limit'],
+      limit:     @config[:review_limit],
       json:      true,
       mode:      'both'   # Needed to get both product and service rating
     }
