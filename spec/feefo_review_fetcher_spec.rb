@@ -7,9 +7,9 @@ describe "Fetching a set of reviews" do
 
   let(:feefo_review_fetcher) do
     config = {
-      'account'               => 'www.sealinktravelgroup.com.au/SeaLink KI',
-      'time_to_cache_reviews' => 25,
-      'review_limit'          => 9
+      account:               'www.sealinktravelgroup.com.au/SeaLink KI',
+      time_to_cache_reviews: 25,
+      review_limit:          9
     }
     FeefoReviewFetcher.new('HTCC', config, cache)
   end
